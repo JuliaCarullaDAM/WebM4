@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ACTIVITAT 4</title>
+    </head>
+    <body>
+        <form>
+            <legend>Busca la teva càmara: </legend>
+
+            <p> <label for="marca">Marca:</label>
+                <input type="text" name="marca" id="marca" list="marques">
+
+                <datalist id="marques">
+                    <option value="Sony"></option>
+                    <option value="Canon"></option>
+                    <option value="Fujifilm"></option>
+                    <option value="Kodak"></option>
+                    <option value="Panasonic"></option>
+                </datalist>
+            </p>
+            <p>
+                <label for="preu">Preu mínim: </label>
+                <input type="number" id="preumin" name="preu" min="50"
+                    max="5000"
+                    required>
+                <label for="preu">Preu màxim: </label>
+                <input type="number" id="preumax" name="preu" min="50"
+                    max="5000"
+                    required>
+            </p>
+
+            <p> <label for="color">Color: </label><br>
+                <input type="checkbox" id="vermell" name="color" value="vermell">
+                <label for="vermell">Vermell</label>
+                <input type="checkbox" id="verd" name="color" value="verd">
+                <label for="verd">Verd</label>
+                <input type="checkbox" id="blau" name="color" value="blau">
+                <label for="blau">Blau</label>
+                <input type="checkbox" id="negre" name="color" value="negre">
+                <label for="negre">Negre</label>
+            </p>
+
+            <p><button type="submit">Cerca</button></p>
+
+        </body>
+    </html>
