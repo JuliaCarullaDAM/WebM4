@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ACTIVITAT 2</title>
+    </head>
+    <body>
+        <form>
+            Altaveus:
+            <input type="text" name="altaveu" id="altaveu" list="altaveus">
+            <datalist id="altaveus">
+                <option value="R4">
+                <option value="R5">
+                <option value="SR1">
+            </datalist><br><br>
+
+            <label for="potencia">Potència: </label>
+            <input type="number" id="potencia" name="potencia"min="50" max="100" required> <br><br>
+
+            Bluetooth:
+            <input type="radio" id="si" name="bluetooth" value="SI">
+            <label for="si">SI</label>
+            <input type="radio" id="no" name="bluetooth" value="NO">
+            <label for="no">NO</label><br><br>
+
+            Color:
+            <input type="radio" id="blau" name="color" value="blau">
+            <label for="blau">Blau</label>
+            <input type="radio" id="verd" name="color" value="verd">
+            <label for="verd">Verd</label>
+            <input type="radio" id="vermell" name="color"value="vermell">
+            <label for="vermell">Vermell</label><br><br>
+        </form>
+    </body>
+</html>
