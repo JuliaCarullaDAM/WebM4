@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ACTIVITATS</title>
-  <link rel="stylesheet" href="activitats.css">
+<style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
 </head>
-
 <body>
-  <h1>LLISTAT D'ACTIVITATS</h1>
-  <div class="contenedor">
 
-    <div class="html">
-      <h1>HTML</h1>
+<h1>Create a Flex Container</h1>
+
+<div class="flex-container">
+
+  <div>
+    h1>HTML</h1>
 
       <h2>02 Formato</h2>
       <a href="html/02_formato/activitat_01.html">Activitat 1</a><br />
@@ -72,10 +81,9 @@
       <h2>12 Accesibilidad</h2>
       <a href="html/12_accesibilidad/activitat_01.html">Activitat 1</a><br />
       <a href="html/12_accesibilidad/activitat_02.html">Activitat 2</a><br />
-    </div>
-
-    <div class="css">
-      <h1>CSS</h1>
+  </div>
+  <div>
+    <h1>CSS</h1>
 
       <h2>03 Selectores</h2>
       <a href="/activitats/css/03_Selectores/activitat_01.html">Activitat 1</a><br />
@@ -85,9 +93,14 @@
       <h2>04 Variables</h2>
       <a href="./css/04_Variables/activitat_01.html">Activitat 1</a><br />
       <a href="./css/04_Variables/activitat_02.html">Activitat 2</a><br />
-    </div>
-
   </div>
-</body>
+  
+</div>
 
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+</body>
 </html>
+

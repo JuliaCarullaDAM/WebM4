@@ -1,0 +1,8 @@
+.rectangle{
+    --altura : 5em;
+    --amplada: calc(var(--altura) *2);
+    width: var(--amplada);
+    height: var(--altura);
+    border-style: solid;
+    border-color: black;
+}
