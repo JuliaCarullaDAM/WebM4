@@ -1,0 +1,11 @@
+.contenedor {
+    display: flex;
+    padding: 2em;
+}
+
+.html {
+    width: auto;
+}
+.css {
+    width: auto;
+}
