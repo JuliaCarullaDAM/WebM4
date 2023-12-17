@@ -1,0 +1,6 @@
+.ocult{
+    background-color: black;
+    &::selection{
+        background-color: black;
+    } ;
+}
