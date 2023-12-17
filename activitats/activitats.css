@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .contenedor {
     display: flex;
     padding: 2em;
@@ -6,6 +10,7 @@
 .html {
     width: auto;
 }
+
 .css {
     width: auto;
 }
