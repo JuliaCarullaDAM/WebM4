@@ -31,4 +31,24 @@ article {
     margin: 10px;
     border-top: solid grey 2px;
     padding: 10px;
+    color: black;
+}
+
+.data{
+    font-style: italic;
+    color: gray;
+}
+
+.titol{
+    font-weight: bold;
+    color: red;
+    padding-right: 3px;
+    text-decoration: underline gray;    
+}
+
+.readmore{
+    font-weight: lighter;
+    color: red;
+    padding-right: 3px;
+    text-decoration: underline gray;
 }
