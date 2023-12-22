@@ -13,9 +13,10 @@ p {
     font-weight: bold;
     color: black;
     letter-spacing: 5px;
-    &:hover{
-     font-style: italic;
-     color: blue;
+
+    &:hover {
+        font-style: italic;
+        color: blue;
 
     }
 }
@@ -25,15 +26,16 @@ p {
     font-weight: lighter;
     color: blueviolet;
     word-spacing: 10px;
-    
+
 
 }
 
 .majuscules {
     text-transform: capitalize;
-    &:hover{
+
+    &:hover {
         font-weight: bold;
         color: red;
-   
-       }
+
+    }
 }
