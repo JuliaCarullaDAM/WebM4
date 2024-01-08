@@ -1,0 +1,16 @@
+section{
+    display: flex;
+}
+
+#p1{
+    background-color: black;
+    color: white;
+}
+#p2{
+    background-color: pink;
+    color: black;
+}
+#p3{
+    background-color: green;
+    color: white;
+}
