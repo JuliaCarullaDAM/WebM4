@@ -1,0 +1,33 @@
+section {
+    margin: 10em;
+}
+
+.top {
+    background-color: rgb(157, 255, 200);
+    text-align: center;
+}
+
+.bottom {
+    width: 50%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.title {
+    width: 50%;
+    font-size: 2em;
+    margin-bottom: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    padding: 1em 2em 1em 2em;
+    font-size: small;
+    border: solid black 1px;
+    border-radius: 25px;
+}
+
+.text {
+    margin-bottom: 2em;
+}
