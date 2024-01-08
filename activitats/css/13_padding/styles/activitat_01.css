@@ -1,0 +1,59 @@
+body {
+    background-color: lightyellow;
+    margin: 0px;
+}
+
+section {
+    padding: 5em;
+}
+
+p {
+    text-align: justify;
+}
+
+.esquerra {
+    display: inline-block;
+    width: 45%;
+}
+
+.esquerra h1 {
+    font-size: 3em;
+}
+
+.dreta {
+    display: inline-block;
+    width: 45%;
+}
+
+.contenidor_botons {
+    display: flex;
+    font-weight: bold;
+}
+
+.suscripcio,
+.comparar {
+    padding: 1em 2em 1em 2em;
+}
+
+.suscripcio {
+    background-color: cadetblue;
+    color: lightyellow;
+}
+
+.comparar {
+    color: cadetblue;
+}
+
+footer {
+    background-color: rgb(162, 221, 226);
+    padding: 1.5em 0em;
+    text-align: center;
+}
+
+.imatge {
+    margin: auto;
+
+    width: 65%;
+    max-width: 65%;
+    display: block;
+}
