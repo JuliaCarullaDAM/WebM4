@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/media/imatges/CSS/10_imagenes/fonsActivitat2.png");
+    background-size: cover;
+}
+
+a:link {
+    color: darkslategrey;
+
+}
+
+a:visited {
+    color: rgb(113, 47, 0);
+
+}
