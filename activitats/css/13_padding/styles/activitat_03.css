@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fila {
+    padding: 2em;
+    max-height: 25%;
+    border: solid lightgray;
+    border-width: 2px 3px 2px 3px;
+}
+
+.justificat {
+    text-align: justify;
+    width: 50%;
+}
+
+h1{
+    font-weight: normal;
+}

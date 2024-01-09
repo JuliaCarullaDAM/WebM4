@@ -1,0 +1,5 @@
+img{
+    border: orangered 7px;
+    border-style: solid dashed;
+    border-image: linear-gradient(aqua, red) 1;
+}
