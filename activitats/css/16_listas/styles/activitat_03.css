@@ -1,0 +1,15 @@
+li{
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+    padding: 0.5em;
+    list-style: none;
+    border: solid black 3px;
+    background-color: cadetblue;
+    color:burlywood;
+    margin-bottom: 1px;
+    max-width: 10%;
+    text-align: center;
+    
+}

@@ -1,0 +1,8 @@
+span{
+    color: black;
+}
+li{
+    color: red;
+    list-style-type: symbols(cyclic "\2665");
+
+}
