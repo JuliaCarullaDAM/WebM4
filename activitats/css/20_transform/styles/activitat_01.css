@@ -1,0 +1,10 @@
+.boto{
+    padding: 0.5em 1em;
+    max-width: 10%;
+    text-align: center;
+    background-color: aqua;
+    transform: rotate(15deg);
+    &:hover{
+        transform: rotate(0deg);
+    }
+}
