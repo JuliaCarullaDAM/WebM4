@@ -1,0 +1,22 @@
+body{
+    display: flex;
+}
+.boto{
+    padding:1em 1em;
+    border-radius: 1em;
+    max-width: 10%;
+    text-align: center;
+    
+}
+#blau{
+    color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 0.5);
+    &:hover{
+        transform: translateX(2em);
+     }
+}
+#vermell{
+    color: red;
+    background-color: red;
+    
+}
