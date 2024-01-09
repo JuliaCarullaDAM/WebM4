@@ -1,0 +1,46 @@
+.contenidor {
+    display: flex;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 25%;
+    max-width: 25%;
+    border: solid lightgray;
+    border-width: 3px 0px 3px 3px;
+}
+
+.petit {
+    font-size: smaller;
+}
+
+.boto {
+    padding: 0.5em 1em;
+    color: lightgray;
+    border-radius: 5px;
+    background-color: cadetblue;
+    max-width: 30%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blau {
+    color: cadetblue;
+}
+
+.gran {
+    font-size: large;
+    margin-bottom: 1em;
+}
+
+.negreta {
+    font-weight: bolder;
+}
+
+li {
+    color: cadetblue;
+    list-style-type: symbols(cyclic "\1F5F8");
+}
