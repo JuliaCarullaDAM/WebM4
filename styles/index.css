@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2em 5em;
+}
+h1{
+    margin-right: 1em;
+}
+header {
+    display: flex;
+}
+
+li{
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: auto;
+    justify-content: center;
+    display: inline;
+    list-style: none;
+}
