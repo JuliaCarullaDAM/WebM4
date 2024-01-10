@@ -1,0 +1,14 @@
+br {
+    margin: 8px;
+}
+
+.camp {
+    transition: border 2s, transform 2s;
+        transition-timing-function: linear;
+
+    &:focus {
+        transform: scale(1.2);
+        border: 2px solid #b434db;
+        
+    }
+}
