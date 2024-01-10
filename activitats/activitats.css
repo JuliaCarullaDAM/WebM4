@@ -1,10 +1,17 @@
 body {
+    margin: 2em;
+    background-color: rgb(226, 239, 239);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor {
     display: flex;
-    padding: 2em;
+    max-width: 100%;
+}
+
+.html,
+.css {
+    max-width: 50%;
 }
 
 .html {
@@ -13,4 +20,5 @@ body {
 
 .css {
     width: auto;
+    margin-left: 4em;
 }
