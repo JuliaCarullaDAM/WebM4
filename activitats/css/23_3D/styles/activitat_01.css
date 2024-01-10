@@ -1,0 +1,10 @@
+img {
+    background-size: cover;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+
+    &:hover{
+        transform: rotate3d(1, 1, 1, 45deg);
+    }
+  }
