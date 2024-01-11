@@ -1,7 +1,10 @@
 .curriculum {
-    max-width: 50%;
+    max-width: 80%;
     justify-content: center;
     display: flex;
     margin: 0 auto;
-    border-radius: 2em;
+    img{
+        border-radius: 2em;
+        border: solid 2px rgba(131, 131, 131, 0.304);
+    }
 }
