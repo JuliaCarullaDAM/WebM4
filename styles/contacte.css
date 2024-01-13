@@ -1,0 +1,45 @@
+article.contacte {
+    display: flex;
+}
+
+form {
+    background-color: #e4ece6af;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    line-height: 3em;
+    box-shadow: 1px 4px 10px 1px #A4C3B2;
+
+    .enviar {
+        background-color: rgba(0, 55, 5, 0.5);
+        width: 15%;
+        margin: 0 auto;
+        font-weight: 600;
+        border: 1px solid rgb(0, 55, 5);
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #e4ece67e;
+            box-shadow: 1px 4px 10px 1px #A4C3B2;
+            color: rgb(15, 120, 50);
+
+        }
+    }
+
+    input {
+        background-color: #f7fff9;
+        line-height: 2em;
+    }
+
+    textarea {
+        background-color: #f7fff9;
+        margin-bottom: 1.3em;
+    }
+
+    label, .enviar {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
