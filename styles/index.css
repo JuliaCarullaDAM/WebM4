@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 55, 5);
     background-color: #F6FFF8;
+    text-align: justify;
     margin: 0;
     padding: 1em 2em;
     line-height: 2em;
@@ -100,10 +101,8 @@ article.presentacio.superior {
 }
 
 .superior.esquerra {
-
     max-width: 60%;
     width: 60%;
-    text-align: justify;
     margin-right: auto;
 }
 
@@ -111,12 +110,10 @@ article.presentacio.superior {
     display: grid;
     max-width: 40%;
     width: 40%;
-    margin-left: auto;
     justify-items: center;
 
     img {
-        max-width: 50%;
-        width: 50%;
+        max-width: 45%;
         border-radius: 40%;
         padding-top: 1em;
         object-fit: contain;
@@ -126,11 +123,13 @@ article.presentacio.superior {
 
 .habilitats {
     display: flex;
+    justify-content: flex-start;
 
     .administratiu,
     .informatic,
     .personal {
         width: 33%;
+        margin-right: 1%;
     }
 
     ul {
