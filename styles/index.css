@@ -60,7 +60,6 @@ a {
 
     &:hover {
         color: rgb(15, 120, 50);
-
     }
 
     &.menu {
@@ -73,7 +72,6 @@ a {
         }
     }
 }
-
 
 footer {
     max-width: 100%;
@@ -93,6 +91,7 @@ h1.titol_index {
     font-weight: 600;
     color: rgb(8, 43, 8);
     text-decoration: none;
+    margin-bottom: 0em;
 }
 
 .presentacio {

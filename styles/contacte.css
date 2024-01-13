@@ -23,17 +23,15 @@ form {
             background-color: #e4ece67e;
             box-shadow: 1px 4px 10px 1px #A4C3B2;
             color: rgb(15, 120, 50);
-
         }
     }
 
-    input {
+    input, textarea {
         background-color: #f7fff9;
         line-height: 2em;
     }
 
     textarea {
-        background-color: #f7fff9;
         margin-bottom: 1.3em;
     }
 
