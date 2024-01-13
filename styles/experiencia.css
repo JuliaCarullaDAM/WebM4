@@ -1,0 +1,51 @@
+.laboral,
+.practiques {
+    background-color: #e4ece67e;
+    border-radius: 10px;
+    padding: 0.5em;
+    line-height: 4px;
+    box-shadow: 1px 4px 10px 1px #A4C3B2;
+    h4{
+        padding-top: 0.7em;
+    }
+
+    ul {
+        line-height: 1.5em;
+        padding: 1em 0em;
+
+        li {
+            display: block;
+            border: none;
+
+            &:hover {
+                background-color: transparent;
+                box-shadow: none
+            }
+
+            &::before {
+                content: "\25A0";
+                color: rgb(8, 43, 8);
+                padding-right: 1em;
+            }
+        }
+    }
+}
+
+h1 {
+    text-decoration: underline;
+    margin-bottom: 2em;
+}
+
+.dispromedia {
+    padding-top: 1em;
+
+    ul {
+        border-bottom: none;
+    }
+}
+
+.practiques {
+    .grues_nogues {
+        border-bottom: solid 2px #A4C3B2;
+    }
+}
