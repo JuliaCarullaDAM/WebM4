@@ -33,20 +33,25 @@ th {
     height: 60vh;
 }
 
-.contingut,
 .explicacio {
-    width: 50%;
-    max-width: 50%;
+    padding-right: 4em;
+    width: 60%;
 }
 
 .contingut {
+    width: 40%;
 
     iframe {
         width: 70%;
         height: 85%;
     }
-    img{
-        height: auto;
- max-width: 100%;
+
+    img {
+        max-width: 80%;
+        object-fit: scale-down;
+
+        &:hover {
+            filter: blur(2px);
+        }
     }
 }
