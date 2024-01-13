@@ -25,3 +25,28 @@ th {
     font-weight: bolder;
     text-align: center;
 }
+
+.fila_projectes {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+    height: 60vh;
+}
+
+.contingut,
+.explicacio {
+    width: 50%;
+    max-width: 50%;
+}
+
+.contingut {
+
+    iframe {
+        width: 70%;
+        height: 85%;
+    }
+    img{
+        height: auto;
+ max-width: 100%;
+    }
+}
