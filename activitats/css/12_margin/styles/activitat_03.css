@@ -1,0 +1,50 @@
+body {
+    color: white;
+}
+
+.inferior,
+.superior {
+    padding: 4em;
+    text-align: center;
+}
+
+.superior {
+    background-image: url(/WebM4/media/imatges/CSS/12_margin/portatil.jpg);
+    background-size: cover;
+}
+
+.boto {
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.vermell {
+    background-color: red;
+    border-top: solid 3px red;
+
+    &.boto {
+        color: white;
+    }
+}
+
+.blanc {
+    background-color: white;
+    border-top: solid 3px white;
+
+    &.boto {
+        color: red;
+    }
+}
+
+p {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.ratlla {
+    display: block;
+    width: 2em;
+    margin: 0 auto;
+    border-radius: 5px;
+}
