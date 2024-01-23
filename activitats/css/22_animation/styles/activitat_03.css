@@ -1,0 +1,14 @@
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .galetes {
+    width: 30%;
+    border-radius: 10px;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+  }

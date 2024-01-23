@@ -1,0 +1,16 @@
+@keyframes progress {
+    0% {width: 1%;}
+    100% {width: 100%;}
+  }
+
+.barraPrincipal {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.carregar{  width: 1%;
+  height: 30px;
+  background-color: darkblue;
+  animation: progress 2s linear forwards;
+}
+
