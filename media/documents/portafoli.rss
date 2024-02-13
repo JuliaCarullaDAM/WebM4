@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:media="http://search.yahoo.com/mrss">
+    <channel>
+        <title>W3Schools Home Page</title>
+        <link>https://www.w3schools.com</link>
+        <description>Free web building tutorials</description>
+        <author>Radios Libres</author>
+        <pubDate>Thu, 12 Sep 2019</pubDate>
+        <lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate>
+        <category>Lorem Ipsum</category>
+        <copyright>CC 4.0 – BY-SA</copyright>
+        <item>
+            <title>RSS Tutorial</title>
+            <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+            <description>New RSS tutorial on W3Schools</description>
+            <author>Radios Libres</author>
+            <pubDate>Thu, 12 Sep 2019</pubDate>
+            <lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate>
+            <category>Lorem Ipsum</category>
+            <media:group>
+                <media:content url="modificarfotoambelmeunom" type="image/jpg" height="150" width="150" />
+                <media:title> Imatge per al RSS de la EAF4 </media:title>
+                <media:credit role="author"> Júlia Carulla </media:credit>
+            </media:group>
+            <copyright>CC 4.0 – BY-SA</copyright>
+        </item>
+        <item>
+            <title>XML Tutorial</title>
+            <link>https://www.w3schools.com/xml</link>
+            <description>New XML tutorial on W3Schools</description>
+            <author>Radios Libres</author>
+            <pubDate>Thu, 12 Sep 2019</pubDate>
+            <lastBuildDate>Sat, 07 Sep 2002 09:42:31 GMT</lastBuildDate>
+            <category>Lorem Ipsum</category>
+            <copyright>CC 4.0 – BY-SA</copyright>
+        </item>
+    </channel>
+</rss>
