@@ -3,24 +3,36 @@
     xmlns:media="http://search.yahoo.com/mrss/">
     <title>Portafoli Júlia Carulla</title>
     <link href="https://juliacarulladam.github.io/WebM4/media/documents/portafoli.rss"/>
-    <summary>RSS creat per la Júlia Carulla, pràctica EAF4 del mòdul M4 de Desenvolupament d'aplicacions multiplataforma</summary>
-    <rigths>COPYRIGHT © 2024. ALL RIGHTS RESERVED.</rigths>
-    <updated>Tue, 13 Feb 2024 08:00:00 EST</updated>
+    <rights>COPYRIGHT © 2024. ALL RIGHTS RESERVED.</rights>
+    <updated>2021-01-01T02:07:14+00:00</updated>
+    <id>https://juliacarulladam.github.io/WebM4/media/documents/portafoli.rss</id>
+    <link href="https://juliacarulladam.github.io/WebM4/media/documents/portafoli.rss" rel="self" type="application/rss+xml"/>
+
     <entry>
         <title>Best CPUs for Gaming: February 2024</title>
         <link href="https://www.anandtech.com/show/9793/best-cpus"/>
+        <id>https://www.anandtech.com/show/9793/best-cpus</id>
+        <updated>2021-01-01T02:07:14+00:00</updated>
         <summary>In our series of Best CPU guides, here's the latest update to our recommended Gaming CPUs list. All numbers in the text are updated to reflect pricing at the time of writing. Numbers in graphs reflect MSRP.</summary>
-        <author>gavinbonshor@exemple.com</author>
-        <pubDate>Tue, 13 Feb 2024 08:00:00 EST</pubDate>
-        <category>CPU's</category>
+        <author>
+            <name>Gavin Bonshor</name>
+            <email>gavinbonshor@exemple.com</email>
+        </author>
+        <published>2021-01-01T02:07:14+00:00</published>
+        <category term="CPU"/>
     </entry>
     <entry>
         <title>Las CPU Zen 5 podrían dominar en gaming y servidores: aumento de IPC del 30%, soporte para AVX512 y uso del nodo 4N de TSMC</title>
         <link href="https://elchapuzasinformatico.com/2024/02/amd-zen-5-cpu-gaming-servidor-ipc-30-avx512-4n-n3e-tsmc/"/>
+        <id>https://elchapuzasinformatico.com/2024/02/amd-zen-5-cpu-gaming-servidor-ipc-30-avx512-4n-n3e-tsmc/</id>
+        <updated>2021-01-01T02:07:14+00:00</updated>
         <summary>Las filtraciones han ido escalando y descendiendo progresivamente a lo largo de estos dos últimos años. Se han dicho muchas cosas acerca de la arquitectura y de sus CPU, pero aunque las últimas noticias hablaban de un retraso (ya confirmado por AMD) para Zen 5 y sus Ryzen 9000 como nota negativa, hoy tenemos algo bastante positivo. Y es que los datos más optimistas con el rendimiento vuelven a coger fuerza al afirmar que Zen 5 tendría un IPC sobre un 30% mayor a Zen 4.</summary>
-        <author>protectorindefinido@exemple.com</author>
-        <pubDate>Tue, 13 Feb 2024 08:00:00 EST</pubDate>
-        <category>Hardware</category>
+        <author>
+            <name>protectorindefinido</name>
+            <email>protectorindefinido@exemple.com</email>
+        </author>
+        <published>2021-01-01T02:07:14+00:00</published>
+        <category term="Hardware"/>
         <media:content url="https://juliacarulladam.github.io/WebM4/media/imatges/rss/juliacarulla.jpg" type="image/jpg" height="150" width="150" />
         <media:title> Imatge per al RSS de la EAF4 </media:title>
         <media:credit role="author"> Júlia Carulla </media:credit>
@@ -28,9 +40,14 @@
     <entry>
         <title>KIOXIA Exceria Plus G3 Review en Español (Análisis completo)</title>
         <link href="https://www.profesionalreview.com/2024/02/07/kioxia-exceria-plus-g3-review/"/>
+        <id>https://www.profesionalreview.com/2024/02/07/kioxia-exceria-plus-g3-review/</id>
+        <updated>2021-01-01T02:07:14+00:00</updated>
         <summary>KIOXIA presenta sus unidades Gen4x4 pensadas para uso general KIOXIA Exceria Plus G3. Se trata de una opción con rendimiento de 5.000 y 3.900 MB/s en lectura y escritura secuencial, de gama media con controlador Phison E21.</summary>
-        <author>jacastillo@exemple.com</author>
-        <pubDate>Tue, 13 Feb 2024 08:00:00 EST</pubDate>
-        <category>Reviews</category>
+        <author>
+            <name>Juan Antonio Castillo</name>
+            <email>jacastillo@exemple.com</email>
+        </author>
+        <published>2021-01-01T02:07:14+00:00</published>
+        <category term="Reviews"/>
     </entry>
 </feed>
