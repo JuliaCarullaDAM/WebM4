@@ -24,9 +24,12 @@
             <author>protectorindefinido@exemple.com</author>
             <pubDate>Tue, 13 Feb 2024 08:00:00 EST</pubDate>
             <category>Hardware</category>
-            <media:content url="https://juliacarulladam.github.io/WebM4/media/imatges/rss/juliacarulla.jpg" type="image/jpg" height="150" width="150" />
-            <media:title> Imatge per al RSS de la EAF4 </media:title>
-            <media:credit role="author"> Júlia Carulla </media:credit>
+            <media:group>
+                <media:content url="https://juliacarulladam.github.io/WebM4/media/imatges/rss/juliacarulla.jpg" type="image/jpg" height="150" width="150" />
+                <media:title> Imatge per al RSS de la EAF4 </media:title>
+                <media:credit role="author"> Júlia Carulla </media:credit>
+            </media:group>
+
         </item>
         <item>
             <title>KIOXIA Exceria Plus G3 Review en Español (Análisis completo)</title>
