@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom"
     xmlns:media="http://search.yahoo.com/mrss/">
     <title>Portafoli Júlia Carulla</title>
-    <link href="https://juliacarulladam.github.io/WebM4/media/documents/portafoli.rss"/>
+    <link href="https://juliacarulladam.github.io/WebM4/media/documents/portafoli.atom"/>
     <rights>COPYRIGHT © 2024. ALL RIGHTS RESERVED.</rights>
     <updated>2021-01-01T02:07:14+00:00</updated>
     <id>https://juliacarulladam.github.io/WebM4/media/documents/portafoli.rss</id>
-    <link href="https://juliacarulladam.github.io/WebM4/media/documents/portafoli.rss" rel="self" type="application/rss+xml"/>
+    <link href="https://juliacarulladam.github.io/WebM4/media/documents/portafoli.atom" rel="self" type="application/rss+xml"/>
 
     <entry>
         <title>Best CPUs for Gaming: February 2024</title>
